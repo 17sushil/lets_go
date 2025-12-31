@@ -19,17 +19,22 @@
         <div class="container">
             <nav>
                 <a href="index.html" class="logo">
-                    <i class="fas fa-code"></i> DevSphere
+                    <i class="fas fa-code"></i> lets_go
                 </a>
 
                 <ul class="nav-links">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html" class="active" data-i18n-key="nav.home">Home</a></li>
+                    <li><a href="about.html" data-i18n-key="nav.about">About</a></li>
+                    <li><a href="team.html" data-i18n-key="nav.team">Team</a></li>
+                    <li><a href="contact.html" data-i18n-key="nav.contact">Contact</a></li>
                 </ul>
 
                 <div class="nav-actions">
+                    <select id="languageSelect" class="language-select">
+                        <option value="en">EN</option>
+                        <option value="ne">नेपाली</option>
+                        <option value="hi">हिन्दी</option>
+                    </select>
                     <button class="theme-toggle" id="themeToggle">
                         <i class="fas fa-moon"></i>
                     </button>
@@ -41,10 +46,10 @@
 
             <!-- Mobile Navigation -->
             <div class="mobile-nav" id="mobileNav">
-                <a href="index.html" class="active">Home</a>
-                <a href="about.html">About</a>
-                <a href="team.html">Team</a>
-                <a href="contact.html">Contact</a>
+                <a href="index.html" class="active" data-i18n-key="nav.home">Home</a>
+                <a href="about.html" data-i18n-key="nav.about">About</a>
+                <a href="team.html" data-i18n-key="nav.team">Team</a>
+                <a href="contact.html" data-i18n-key="nav.contact">Contact</a>
             </div>
         </div>
     </header>
@@ -66,15 +71,16 @@
 
         <div class="container" style="position: relative; z-index: 2;">
             <div class="hero-content fade-in" data-tilt>
-                <h1>Senior Web Development Experts</h1>
-                <p>We build exceptional digital experiences that drive results. With over 10 years of expertise in
+                <h1 data-i18n-key="hero.title">Senior Web Development Experts</h1>
+                <p data-i18n-key="hero.subtitle">We build exceptional digital experiences that drive results. With over
+                    10 years of expertise in
                     modern web technologies, we transform complex problems into elegant, performant solutions.</p>
 
                 <div class="cta-buttons" style="margin-top: 2rem;">
-                    <a href="contact.html" class="btn btn-primary">
+                    <a href="contact.html" class="btn btn-primary" data-i18n-key="cta.start">
                         <i class="fas fa-paper-plane"></i> Start a Project
                     </a>
-                    <a href="team.html" class="btn btn-secondary">
+                    <a href="team.html" class="btn btn-secondary" data-i18n-key="cta.team">
                         <i class="fas fa-users"></i> Meet Our Team
                     </a>
                 </div>
@@ -92,8 +98,8 @@
     <section id="services-preview">
         <div class="container">
             <div class="section-title">
-                <h2>Our Expertise</h2>
-                <p>Cutting-edge solutions for modern web challenges</p>
+                <h2 data-i18n-key="expertise.title">Our Expertise</h2>
+                <p data-i18n-key="expertise.subtitle">Cutting-edge solutions for modern web challenges</p>
             </div>
 
             <div class="services-grid">
@@ -101,8 +107,9 @@
                     <div class="service-icon">
                         <i class="fas fa-code"></i>
                     </div>
-                    <h3>Full-Stack Development</h3>
-                    <p>End-to-end web application development using modern JavaScript frameworks and cloud-native
+                    <h3 data-i18n-key="service.fullstack.title">Full-Stack Development</h3>
+                    <p data-i18n-key="service.fullstack.desc">End-to-end web application development using modern
+                        JavaScript frameworks and cloud-native
                         architectures.</p>
                 </div>
 
@@ -110,8 +117,9 @@
                     <div class="service-icon">
                         <i class="fas fa-paint-brush"></i>
                     </div>
-                    <h3>UI/UX Design</h3>
-                    <p>User-centered design that combines aesthetics with functionality to create intuitive digital
+                    <h3 data-i18n-key="service.uiux.title">UI/UX Design</h3>
+                    <p data-i18n-key="service.uiux.desc">User-centered design that combines aesthetics with
+                        functionality to create intuitive digital
                         experiences.</p>
                 </div>
 
@@ -119,15 +127,17 @@
                     <div class="service-icon">
                         <i class="fas fa-server"></i>
                     </div>
-                    <h3>DevOps & Cloud</h3>
-                    <p>Scalable infrastructure, CI/CD pipelines, and cloud optimization for high-performance
+                    <h3 data-i18n-key="service.devops.title">DevOps & Cloud</h3>
+                    <p data-i18n-key="service.devops.desc">Scalable infrastructure, CI/CD pipelines, and cloud
+                        optimization for high-performance
                         applications.</p>
                 </div>
             </div>
 
             <div class="text-center" style="margin-top: 3rem;">
                 <a href="about.html" class="btn btn-primary">
-                    <i class="fas fa-arrow-right"></i> Learn More About Us
+                    <i class="fas fa-arrow-right"></i> <span data-i18n-key="service.learn_more">Learn More About
+                        Us</span>
                 </a>
             </div>
         </div>
@@ -141,13 +151,13 @@
                     <i class="fas fa-code"></i> DevSphere
                 </div>
                 <div class="footer-links">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="team.html">Team</a>
-                    <a href="contact.html">Contact</a>
+                    <a href="index.html" data-i18n-key="footer.links.home">Home</a>
+                    <a href="about.html" data-i18n-key="footer.links.about">About</a>
+                    <a href="team.html" data-i18n-key="footer.links.team">Team</a>
+                    <a href="contact.html" data-i18n-key="footer.links.contact">Contact</a>
                 </div>
                 <div class="copyright">
-                    &copy; 2023 DevSphere. All rights reserved.
+                    <span data-i18n-key="footer.copy">&copy; 2023 DevSphere. All rights reserved.</span>
                 </div>
             </div>
         </div>
@@ -160,6 +170,7 @@
 
     <!-- JavaScript Files -->
     <script src="js/main.js"></script>
+    <script src="js/i18n/i18n.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/animations.js"></script>
 </body>
