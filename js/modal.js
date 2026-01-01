@@ -58,35 +58,20 @@ document.addEventListener('DOMContentLoaded', function () {
                 "Speaker at multiple web development conferences"
             ]
         },
-        michael: {
-            name: "Michael Chen",
-            role: "Mobile App Developer",
-            bio: "Specializes in cross-platform mobile applications using React Native and Flutter. Creates performant mobile experiences for iOS and Android.",
-            details: "Michael has built mobile apps with over 1 million downloads across the App Store and Google Play Store. He focuses on creating smooth, native-like experiences.",
-            skills: ["React Native", "Flutter", "iOS", "Android", "TypeScript", "Firebase"],
-            experience: "6+ years",
-            education: "B.S. Computer Science, University of Michigan",
-            achievements: [
-                "Built a health app with 500,000+ active users",
-                "Reduced app size by 60% through optimization",
-                "Achieved 4.8+ star ratings on app stores"
+        rijan: {
+            name: "Rijan Shakya",
+            role: "Junior Web Developer",           
+            bio: "Rijan is a junior web developer with a passion for building responsive and user-friendly websites. He has experience in both frontend and backend development.",
+            details: "Rijan has worked on several projects using HTML, CSS, JavaScript, and popular frameworks. He is eager to learn and grow in the web development field.",
+            skills: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],    
+            experience: "1+ years",
+            education: "B.Sc. in Computer Science, Kathmandu University",
+            achievements: [ 
+                "Contributed to open-source web development projects",
+                "Built a personal portfolio website showcasing projects",
+                "Completed web development bootcamps and certifications"
             ]
-        },
-        jessica: {
-            name: "Jessica Williams",
-            role: "Project Manager",
-            bio: "Ensures projects are delivered on time, within budget, and exceed client expectations through effective communication and agile methodologies.",
-            details: "Jessica has managed over 50 successful web projects ranging from small business websites to enterprise applications. She's certified in Scrum and Agile methodologies.",
-            skills: ["Agile", "Scrum", "Jira", "Client Relations", "Budget Management", "Risk Assessment"],
-            experience: "7+ years",
-            education: "MBA, Kellogg School of Management",
-            achievements: [
-                "Maintained 100% on-time project delivery for 3 consecutive years",
-                "Increased client satisfaction scores from 85% to 98%",
-                "Reduced project overhead costs by 25%"
-            ]
-        },
-
+        }
     };
 
     // Open modal when clicking view details
